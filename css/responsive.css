@@ -52,7 +52,8 @@
         align-items: center;
     }
     .section2-container {
-        background-color:#e6e6e6;
+        background-color:  #dfdddd;
+        padding-top: 15px;
     }
     
     
@@ -64,7 +65,8 @@
     .section2-box2,
     .section2-box3,
     .section2-box4 {
-flex-direction: column;
+     flex-direction: column;
+     
     }
     .section2-container {
         background-color: white;
@@ -80,7 +82,7 @@ flex-direction: column;
     }
 
 }
-@media(max-width:800px) {
+@media(max-width:1068px) {
     .lists {
         flex-direction: column;
         align-items: center'
@@ -129,9 +131,23 @@ flex-direction: column;
     .textarea-box {
         margin-right: 0px;
     }
+    .gallery,
+    .form-title,
+    .header-about {
+        font-size: 32px;
+    }
 }
 @media(max-width:340px) {
     .lists li  {
+        font-size: 11px;
+    }
+    .zetta-p {
+        font-size: 12px;
+    }
+    .zetta-h {
+        font-size: 20px;
+    }
+    .end-text {
         font-size: 11px;
     }
     }
