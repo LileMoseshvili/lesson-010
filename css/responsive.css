@@ -130,3 +130,8 @@ flex-direction: column;
         margin-right: 0px;
     }
 }
+@media(max-width:340px) {
+    .lists li  {
+        font-size: 11px;
+    }
+    }
